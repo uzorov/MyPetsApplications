@@ -1,0 +1,36 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Add this shape element to define the border -->
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="30dp"
+                android:left="30dp"
+                android:right="30dp"
+                android:top="30dp" />
+        </shape>
+    </item>
+
+    <!-- Your existing animated-rotate element goes here -->
+    <item>
+        <animated-rotate
+            android:drawable="@drawable/loading_shape"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <shape
+                android:innerRadiusRatio="3"
+                android:shape="ring"
+                android:thicknessRatio="8"
+                android:useLevel="false">
+                <size
+                    android:height="24dp"
+                    android:width="24dp" />
+                <gradient
+                    android:centerColor="#F4B7B7"
+                    android:centerY="0.50"
+                    android:endColor="#FFFFFF"
+                    android:startColor="#000000"
+                    android:type="sweep" />
+            </shape>
+        </animated-rotate>
+    </item>
+</layer-list>

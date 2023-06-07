@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyPetsApplications</string>
+    <string name="requirements">Подайте заявление на адопцию питомца онлайн, после подачи оно будет отображено на главном экране</string>
+    <string name="text_subtitle_bring_them_home">Узнайте истории наших животных и подайте заявку на адопцию</string>
+    <string name="text_subtitle_bth_alt">Заявки рассматриваются сотрудником приюта, вы можете отслеживать статус их обработки ниже</string>
+</resources>
